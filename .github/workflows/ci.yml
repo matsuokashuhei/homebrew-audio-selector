@@ -22,7 +22,7 @@ jobs:
         run: brew tap matsuokashuhei/audio-selector "$GITHUB_WORKSPACE"
 
       - name: Install formula from source
-        run: brew install --build-from-source matsuokashuhei/audio-selector/audio-selector
+        run: brew install --build-from-source audio-selector
 
       - name: Test formula
-        run: brew test matsuokashuhei/audio-selector/audio-selector
+        run: brew test audio-selector
