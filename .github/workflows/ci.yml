@@ -18,8 +18,11 @@ jobs:
       - name: Show Homebrew version
         run: brew --version
 
+      - name: Tap local checkout
+        run: brew tap matsuokashuhei/sound-selector "$GITHUB_WORKSPACE"
+
       - name: Install formula from source
-        run: brew install --build-from-source ./Formula/select-sound.rb
+        run: brew install --build-from-source matsuokashuhei/sound-selector/select-sound
 
       - name: Test formula
-        run: brew test select-sound
+        run: brew test matsuokashuhei/sound-selector/select-sound
