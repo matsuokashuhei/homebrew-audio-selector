@@ -1,9 +1,9 @@
-# homebrew-sound-selector
+# homebrew-audio-selector
 
-Homebrew tap for [`select-sound`](https://github.com/matsuokashuhei/sound-selector).
+Homebrew tap for [`audio-selector`](https://github.com/matsuokashuhei/audio-selector).
 
 ## Install
 
 ```sh
-brew install matsuokashuhei/sound-selector/select-sound
+brew install matsuokashuhei/audio-selector/audio-selector
 ```
