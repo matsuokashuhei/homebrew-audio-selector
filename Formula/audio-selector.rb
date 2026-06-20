@@ -1,8 +1,8 @@
 class AudioSelector < Formula
   desc "Keyboard-driven macOS audio input and output selector"
   homepage "https://github.com/matsuokashuhei/audio-selector"
-  url "https://github.com/matsuokashuhei/audio-selector/archive/refs/tags/v0.1.8.tar.gz"
-  sha256 "0d354656b1ff872d60260310e93a9990789ce19b8b09833d0e0eb1c488ea9079"
+  url "https://github.com/matsuokashuhei/audio-selector/archive/refs/tags/v0.1.7.tar.gz"
+  sha256 "98856d388f9c632095f9b3c66e57d941c80b0ea377bdb1476c3fb98b92370a06"
   license "MIT"
 
   depends_on xcode: ["16.0", :build]
